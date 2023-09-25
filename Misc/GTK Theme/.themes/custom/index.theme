@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=custom
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=custom
+MetacityTheme=custom
+IconTheme=Colloid-orange-dark
+CursorTheme=Cutefish-dark
+ButtonLayout=close,minimize,maximize:menu
