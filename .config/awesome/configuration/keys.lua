@@ -55,6 +55,22 @@ awful.keyboard.append_global_keybindings({
 
 
 
+	--- Music Player
+	
+	awful.key({ mod, shift }, "m", function()
+		awful.spawn(apps.default.music_player)
+	end, {description = "open music player", group = "app" }),
+
+
+
+	--- Roblox Player
+	
+	awful.key({ mod, shift }, "r", function()
+		awful.spawn(apps.default.roblox_player)
+	end, {description = "open roblox player", group = "app" }),
+
+
+
 	--- Web browser
 
 	awful.key({ mod, shift }, "w", function()

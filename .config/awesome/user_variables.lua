@@ -2,7 +2,7 @@ return {
 	widget = {
 		weather = {
 			--- API Key
-			key = "",
+			key = "87186ef0adb443e9522d3492fd9abe09",
 			--- Coordinates
 			coordinates = {
 				"-25.45057244372401", --- lat

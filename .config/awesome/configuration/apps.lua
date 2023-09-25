@@ -16,13 +16,15 @@ return {
 		--- Default web browser
 		web_browser = "brave",
 		--- Default file manager
-		file_manager = "thunar",
+		file_manager = "nautilus",
 		--- Default network manager
 		network_manager = "wezterm start nmtui",
 		--- Default bluetooth manager
 		bluetooth_manager = "blueman-manager",
 		--- Default power manager
 		power_manager = "xfce4-power-manager",
+		--- Roblox manager
+		roblox_player = "wezterm start flatpak run io.github.vinegarhq.Vinegar player",
 		--- Default rofi global menu
 		app_launcher = "rofi -no-lazy-grab -show drun -modi drun -theme " .. config_dir .. "configuration/rofi.rasi",
 	},
